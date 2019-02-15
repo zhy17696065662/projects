@@ -5,12 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header></header>
-        <section></section>
+        <header>
+            <div><</div>
+            <div>宁夏景点门票</div>
+            <div></div>
+        </header>
+        <section>
+            <div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                    </div>
+                </div>
+                <div>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                    <dl>
+                        <dt>tu</dt>
+                        <dd>自然风光</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="one">
+               <div class="tow">
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+                <dl>
+                    <dt>打扫垃圾爱课程项目哪里看到扫</dt>
+                    <dd>djksa</dd>
+                </dl>
+            </div> 
+            </div>
+            
+        </section>
         <footer></footer>
     </div>
+    <script src="./swiper.js"></script>
+    <script src="./bscroll.min.js"></script>
+    <script>
+        var one=document.querySelector('.one');
+        var tow=document.querySelector('.tow');
+        var dl=tow.querySelectorAll('dl');
+        var dlh=dl[0].offsetHeight;
+        one.style.overflow='hidden';
+        one.style.height=400+'px';
+        tow.style.height=dlh*dl.length+'px';
+        new Swiper('.swiper-container')
+        new BScroll('.one')
+    </script>
 </body>
 </html>
